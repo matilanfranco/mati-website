@@ -1,10 +1,16 @@
-const albums = [
+const albums: {
+  title: string;
+  description: string;
+  emoji: string;
+  badge?: string;
+  link: string | null;
+}[] = [
   {
     title: "Y mientras... Tango",
     description: "Álbum · Tango · Arreglos propios",
     emoji: "🎹",
     link: "https://open.spotify.com/artist/4U401wla9HILG0PgWMWOYX",
-  },,
+  },
   {
     title: "Latin Jazz con cuerdas",
     description: "En proceso · Composición propia",
